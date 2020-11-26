@@ -6,9 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Tutorial Steps
 
 * [Part 1: Setting up the project](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-1/)
-    > **Status**: `In Progress`
+    > **Status**: `Completed`
 * [Part 2: Setting up the backend](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-2/)
-    > **Status**: `Not Attempted`
+    > **Status**: `In Progress`
 * [Part 3: Connecting frontend to backend](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-3/)
     > **Status**: `Not Attempted`
 * [Part 4: Finish the application](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-4/)
@@ -16,7 +16,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Potenial Features (After Tutorial)
 
+* Multiple Users
 * User Authentication
+* Account Management
+* Pop-up Confirmations
 * Landing Page
 * Multiple TodoLists
 * Card View
