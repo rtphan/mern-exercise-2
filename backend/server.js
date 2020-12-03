@@ -14,7 +14,8 @@ const uri = process.env.MONGOOSE_URI;
 console.log(uri);
 
 mongoose.connect(uri, {
-    useNewUrlParser: true
+    useNewUrlParser: true,
+    useCreateIndex: true
 });
 
 const connection = mongoose.connection;
@@ -23,6 +24,10 @@ connection.once('open', () => {
     console.log("MongoDB database connection established successfully.")
 });
 
-app.listen(PORT, function() {
+const todoRoutes = require('./routes/todos');
+
+app.use('/todos', todoRoutes);
+
+app.listen(PORT, () => {
     console.log("Server is running on Port: " + PORT);
 })
