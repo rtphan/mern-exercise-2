@@ -14,13 +14,12 @@ router.route('/:id').get((req, res) => {
 });
 
 router.route('/add').post((req, res) => {
-    console.log("here");
     // TODO: Check https://github.com/rtphan/mern-exercise-1/blob/master/backend/routes/exercises.js
     // if we need to vet the body information that comes in
-    // const todo = new Todo(req.body);
-    // todo.save()
-    //     .then(() => res.status(200).json('Todo added successfully'))
-    //     .catch(err => res.status(400).json('Error: ' + err));
+    const todo = new Todo(req.body);
+    todo.save()
+        .then(() => res.status(200).json('Todo added successfully'))
+        .catch(err => res.status(400).json('Error: ' + err));
 });
 
 router.route('/update/:id').post((req, res) => {
