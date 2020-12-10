@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 export default class CreateTodo extends Component {
     constructor(props) {
@@ -23,7 +24,19 @@ export default class CreateTodo extends Component {
     }
 
     handleSubmit(event) {
-        console.log(this.state);
+        event.preventDefault();
+
+        const todo = {
+            description: this.state.description,
+            responsible: this.state.responsible,
+            priority: this.state.priority,
+            completed: this.state.completed
+        }
+        console.log(todo);
+        axios.post(process.env.REACT_APP_SERVER_ADDR + 'todos/add', todo)
+            .then(res => console.log(res.data));
+
+        window.location = "/";
     }
 
     render() {

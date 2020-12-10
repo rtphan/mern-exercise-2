@@ -28,3 +28,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 All sources used to create this application and its features will be updated to include a hyperlink. \
 Any sources not used to create features will be placed here.
+
+* Using React App Environment Variables
+    * https://create-react-app.dev/docs/adding-custom-environment-variables/
+    * https://stackoverflow.com/questions/42182577/is-it-possible-to-use-dotenv-in-a-react-project
