@@ -25,7 +25,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [Part 3: Connecting frontend to backend](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-3/)
     > **Status**: `Completed`
 * [Part 4: Finish the application](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-4/)
-    > **Status**: `In Progress`
+    > **Status**: `Completed`
 
 ## Potenial Features (After Tutorial)
 
@@ -37,6 +37,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Landing Page
 * Multiple TodoLists
 * Card View
+* Creation Timestamp
+* Due Date/Time
+* Alert for Reminders
+* Table Sorting
+* Automatic Deletion Upon Completion
+* Post History including Completion undo
 
 ## Sources
 
