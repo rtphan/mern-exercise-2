@@ -27,9 +27,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [Part 4: Finish the application](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-4/)
     > **Status**: `Completed`
 
+## Post-Tutorial Progress
+
+* [React Hooks Refactoring](https://www.freecodecamp.org/news/beginner-react-project-build-basic-forms-using-react-hooks/)
+    > **Status**: `In Progress`
+
 ## Potenial Features (After Tutorial)
 
-* Rebase to React Hooks
+* Refactor to React Hooks
 * Multiple Users
 * User Authentication
 * Account Management
